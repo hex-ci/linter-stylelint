@@ -2,7 +2,7 @@
   "name": "linter-stylelint-plus",
   "version": "4.4.17",
   "private": true,
-  "description": "A plugin for Atom Linter providing an interface to stylelint.",
+  "description": "A plugin for Atom Linter providing an interface to stylelint. Fork from linter-stylelint.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -21,11 +21,6 @@
     "postcss",
     "stylelint"
   ],
-  "author": {
-    "name": "1000ch",
-    "email": "shogo.sensui@gmail.com",
-    "url": "http://github.com/1000ch"
-  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hex-ci/linter-stylelint-plus/issues"
@@ -53,6 +48,28 @@
       "title": "Attempt to fix styles on save",
       "type": "boolean",
       "default": false
+    },
+    "baseScopes": {
+      "description": "List of scopes to run stylelint on, run `Editor: Log Cursor Scope` to determine the scopes for a file.",
+      "type": "array",
+      "default": [
+        "source.css",
+        "source.scss",
+        "source.css.scss",
+        "source.less",
+        "source.css.less",
+        "source.css.postcss",
+        "source.css.postcss.sugarss",
+        "source.css.scss.embedded.html"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "configOverrides": {
+      "description": "A partial stylelint configuration object whose properties will override the existing config object. Use JSON string.",
+      "type": "string",
+      "default": "{}"
     }
   },
   "homepage": "https://github.com/hex-ci/linter-stylelint-plus#readme",

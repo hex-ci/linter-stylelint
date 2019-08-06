@@ -1,7 +1,12 @@
 # linter-stylelint+
 
-A plugin for [Atom Linter](https://github.com/AtomLinter/atom-linter) providing
-an interface to [stylelint](https://github.com/stylelint/stylelint).
+A plugin for [Atom Linter](https://github.com/AtomLinter/atom-linter) providing an interface to [stylelint](https://github.com/stylelint/stylelint).
+
+Support for custom scopes and configOverrides.
+
+If you have new needs, you can write in the issue, thank you.
+
+Fork from linter-stylelint.
 
 ![demo](https://raw.githubusercontent.com/hex-ci/linter-stylelint-plus/master/demo.png)
 
@@ -38,7 +43,3 @@ out of HTML, if you are interested in bringing this functionality back to
 `linter-stylelint`, check out [their documentation](https://github.com/stylelint/stylelint/blob/master/docs/developer-guide/processors.md)
 on how to write a processor to handle HTML, and any other files that contain
 style code!
-
-## License
-
-MIT: <http://1000ch.mit-license.org/>
