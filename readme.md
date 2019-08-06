@@ -16,7 +16,7 @@ Fork from linter-stylelint.
 apm install linter-stylelint-plus
 ```
 
-linter-stylelint runs `stylelint` against your CSS, SCSS, Less, PostCSS,
+linter-stylelint-plus runs `stylelint` against your CSS, SCSS, Less, PostCSS,
 and SugarSS files.
 
 ## Configuration
@@ -40,6 +40,6 @@ As of `stylelint` v7.0.0 the ability to lint embedded style code has been
 removed from core, replaced with the ability for generic processors to handle
 any file format. Currently one has yet to be written for pulling style code
 out of HTML, if you are interested in bringing this functionality back to
-`linter-stylelint`, check out [their documentation](https://github.com/stylelint/stylelint/blob/master/docs/developer-guide/processors.md)
+`linter-stylelint-plus`, check out [their documentation](https://github.com/stylelint/stylelint/blob/master/docs/developer-guide/processors.md)
 on how to write a processor to handle HTML, and any other files that contain
 style code!
