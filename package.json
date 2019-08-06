@@ -1,12 +1,12 @@
 {
-  "name": "linter-stylelint",
+  "name": "linter-stylelint-plus",
   "version": "4.4.9",
   "private": true,
   "description": "A plugin for Atom Linter providing an interface to stylelint.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AtomLinter/linter-stylelint.git"
+    "url": "git+https://github.com/hex-ci/linter-stylelint-plus.git"
   },
   "engines": {
     "atom": ">=1.7.0 <2.0.0"
@@ -28,7 +28,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AtomLinter/linter-stylelint/issues"
+    "url": "https://github.com/hex-ci/linter-stylelint-plus/issues"
   },
   "configSchema": {
     "useStandard": {
@@ -55,13 +55,13 @@
       "default": false
     }
   },
-  "homepage": "https://github.com/AtomLinter/linter-stylelint#readme",
+  "homepage": "https://github.com/hex-ci/linter-stylelint-plus#readme",
   "dependencies": {
     "assign-deep": "0.4.8",
     "atom-linter": "10.0.0",
     "atom-package-deps": "5.1.0",
     "resolve": "1.11.1",
-    "stylelint": "9.10.1",
+    "stylelint": "10.1.0",
     "stylelint-config-standard": "18.3.0"
   },
   "devDependencies": {
