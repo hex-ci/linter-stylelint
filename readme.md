@@ -43,3 +43,7 @@ out of HTML, if you are interested in bringing this functionality back to
 `linter-stylelint-plus`, check out [their documentation](https://github.com/stylelint/stylelint/blob/master/docs/developer-guide/processors.md)
 on how to write a processor to handle HTML, and any other files that contain
 style code!
+
+## License
+
+MIT: <http://1000ch.mit-license.org/>
