@@ -1,4 +1,4 @@
-# linter-stylelint
+# linter-stylelint+
 
 [![Dependency Status](https://david-dm.org/hex-ci/linter-stylelint-plus.svg)](https://david-dm.org/hex-ci/linter-stylelint-plus) [![Greenkeeper badge](https://badges.greenkeeper.io/hex-ci/linter-stylelint-plus.svg)](https://greenkeeper.io/)
 
@@ -10,7 +10,7 @@ an interface to [stylelint](https://github.com/stylelint/stylelint).
 ## Installation
 
 ```ShellSession
-apm install linter-stylelint
+apm install linter-stylelint-plus
 ```
 
 linter-stylelint runs `stylelint` against your CSS, SCSS, Less, PostCSS,
